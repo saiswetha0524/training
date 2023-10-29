@@ -20,6 +20,12 @@ public class Findingdupsarray {
 		 * Arrays.stream(l2).anyMatch((str2->str2==str)) ) != null;
 		 * System.out.println(result);
 		 */
+		  
+		  //for number
+		  List<Integer> l3=Arrays.asList(1,2,4,5); 
+		  List<Integer> l4=Arrays.asList(1,2,3,5);
+		  List<Integer> duplicates1=l3.stream().filter(num->l4.contains(num)).collect(Collectors.toList());
+		  System.out.println(duplicates1);
 		
 	}
 
