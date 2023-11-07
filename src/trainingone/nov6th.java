@@ -9,13 +9,13 @@ public class nov6th {
 	      HashMap<Character,Integer> map = new HashMap<>();	      
 
 
-	      for(char s:a.toCharArray()) {
+	      for(char s:a.toCharArray())    //enhanced for loop
 	    	  
 	   	      
 
 	            map.put(s , map.getOrDefault(s, 0)+1);
 	          
-	         } 
+	         
 	      
 	      System.out.println(map);
 	   }
