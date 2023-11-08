@@ -1,5 +1,8 @@
 package trainingone;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Findingoccurrences {
 
 	public static void main(String[] args) {
@@ -10,6 +13,7 @@ public class Findingoccurrences {
 			int count = 0;
 			
 			String string=String.valueOf(str.charAt(i));
+			System.out.println(string);
 			if(!completed.contains(string)) {
 				completed=completed+string;
 			}else {
